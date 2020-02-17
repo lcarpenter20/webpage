@@ -1,6 +1,5 @@
 ---
-title: "My Website"
-author: "Lizette Carpenter"
+title: "Lizette Carpenter"
 date: "Last updated on `r Sys.Date()`"
 output:
   html_document:
@@ -14,21 +13,21 @@ output:
 Comments in HTML are like this! 
 -->
 
+Welcome to my personal website (currently in progress!) 
 
-Hello, Website!
-
-# My first section
-
-```{r}
-library(ggplot2)
-ggplot(mtcars, aes(x=cyl, y= mpg)) +
-  geom_point() +
-  labs(x= "Number of cylinders", y = "Miles per gallon")
-```
+Check the top bar for my: 
+<ul>
+  <li>resume</li>
+  <li>github</li>
+  <li>twitter</li>
+  <li>and bio!</li>
+</ul>
 
 
-# My second section
+<!---
+# Current Ventures 
 
-```{r}
-head(mtcars)
-```
+
+
+# Future Ventures 
+-->
