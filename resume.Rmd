@@ -8,4 +8,6 @@ output:
     df_print: kable
 ---
 
-Test
+\begin{center} <br>
+\includegraphics[width=8in]{2020_resume.pdf} <br>
+\end{center}
