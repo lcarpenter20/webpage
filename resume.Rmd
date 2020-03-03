@@ -1,7 +1,11 @@
 ---
-title: "Resume"
-output: html_document
-params:
-  filename: "2020_resume.pdf" 
+date: "Last updated on `r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    df_print: kable
 ---
 
+Test
