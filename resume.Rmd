@@ -1,0 +1,17 @@
+---
+title: "Resume"
+output: html_document
+---
+## Education 
+
+  * Smith College  
+    + Expected 2020 - Northampton, MA 
+    + B.A. in Computer Science 
+    + B.A. in Statistical and Data Sciences 
+
+## Skills 
+
+
+## Work Experience 
+
+## Projects 

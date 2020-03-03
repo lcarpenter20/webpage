@@ -23,10 +23,19 @@ Check the top bar for my:
   <li>and bio!</li>
 </ul>
 
+## Biography 
 
 <!---
 # Current Ventures 
+More about this website.
 
+# Section name
+
+Hello world!
+
+## Subsection name
+
+Hello world again!
 
 
 # Future Ventures 
