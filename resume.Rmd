@@ -8,6 +8,9 @@ output:
     df_print: kable
 ---
 
-\begin{center} <br>
-\includegraphics[width=8in]{2020_resume.pdf} <br>
-\end{center}
+
+
+```{r label, out.width = "85%", fig.cap = "caption"}
+knitr::include_graphics("/docs/2020_resume.pdf")
+```
+
