@@ -19,7 +19,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Resume"
-      href: LC_resume.html
+      href: lizette_resume.html
   right:
     - icon: fa-slack fa-lg
       href: "https://github.com/lcarpenter20"
