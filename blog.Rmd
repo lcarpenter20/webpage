@@ -1,0 +1,12 @@
+---
+title: "Blog"
+date: "Last updated on `r Sys.Date()`"
+output:
+  html_document:
+    #toc: true
+    #toc_depth: 2
+    #toc_float: true
+    #df_print: kable
+---
+
+First post coming soon! 

@@ -15,11 +15,9 @@ output:
 # All fa icons were obtained from https://fontawesome.com/icons?d=gallery
 navbar:
   title: "Home"
-  left:
-    - text: "About"
-      href: about.html
+  right:
     - text: "Resume"
       href: lizette_resume.html
-  right:
-    - icon: fa-slack fa-lg
-      href: "https://github.com/lcarpenter20"
+    - text: "Blog"
+      href: blog.html
+
