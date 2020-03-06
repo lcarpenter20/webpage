@@ -332,16 +332,22 @@ Comments in HTML are like this!
         <h1>Biography</h1>
         <p>Lizette Carpenter is a Senior at Smith College double-majoring in Computer Science and Statistical &amp; Data Sciences. She is expected to graduate in May of 2020. Last summer she worked on a Python package that builds aligned hierarchies of music based data streams. She is eager to learn more, creating tech solutions for variety of industries. Contact <a href="mailto:lcarpenter@smith.edu?">Lizette </a> to ask her about her current project, finding ways to improve NFL team's performance or for other inquiries. 
         </p>
+        <br>
         <h2>Interests</h2>
+        <ul class = "interests">
           <li>
             Sports Analytics
+            <i class="fa fa-soccer-ball-o" style="font-size:30px"></i>
           </li>
           <li>
             Public Policy 
+            <i class="fa fa-balance-scale" style="font-size:30px"></i>
           </li>
           <li>
             Trees
+            <i class="fa fa-tree" style="font-size:30px"></i>
           </li>
+        </ul>
       </td>
     </tr>
   </table>
@@ -377,6 +383,11 @@ img[src~="bordered"] {
 }
 
 p{
+  text-align: relative;
+  font-family: Verdana;
+  font-size: 20px;
+}
+.interests li{
   text-align: relative;
   font-family: Verdana;
   font-size: 20px;
