@@ -2,40 +2,33 @@
 date: "Last updated on `r Sys.Date()`"
 output:
   html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
-    df_print: kable
+    #toc: true
+    #toc_depth: 2
+    #toc_float: true
+    #df_print: kable
 ---
 
 <!--
 Comments in HTML are like this! 
 -->
+<br> 
+<center>
+![Cartoon](images/lizette.jpg#thumbnail)
+</center>
+<style type="text/css">
 
-Welcome to my personal website (currently in progress!) 
+img[src*="#thumbnail"] {
+   width:25%;
+   height:25%;
+   border: 1px solid #fe019a;
+   border-radius: 50%;
+}
 
-Check the top bar for my: 
-<ul>
-  <li>resume</li>
-  <li>github</li>
-  <li>twitter</li>
-  <li>and bio!</li>
-</ul>
+img[src~="bordered"] {
+   border: 4px solid black;
+}
+</style>
 
-## Biography 
-
-<!---
-# Current Ventures 
-More about this website.
-
-# Section name
-
-Hello world!
-
-## Subsection name
-
-Hello world again!
+Lizette Carpenter is an undergraduate studying Computer Science and Statistical & Data Sciences at Smith College. She is expected to graduate in May of 2020. 
 
 
-# Future Ventures 
--->

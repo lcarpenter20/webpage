@@ -11,21 +11,35 @@
 
 
 
-<title>Lizette Carpenter</title>
+<title>index.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -236,69 +250,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -306,16 +257,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -328,22 +269,14 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html">Lizette Carpenter</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="lizette_resume.html">Resume</a>
-        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="https://github.com/lcarpenter20">
-           <span class="fa fa-slack fa-lg"></span>
-          </a>
+          <a href="lizette_resume.html">Resume</a>
         </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -354,8 +287,6 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Lizette Carpenter</h1>
-<h4 class="date">Last updated on 2020-02-17</h4>
 
 </div>
 
@@ -363,35 +294,94 @@ div.tocify {
 <!--
 Comments in HTML are like this! 
 -->
-<p>Welcome to my personal website (currently in progress!)</p>
-Check the top bar for my:
-<ul>
-<li>
-resume
-</li>
-<li>
-github
-</li>
-<li>
-twitter
-</li>
-<li>
-and bio!
-</li>
-</ul>
-<!---
-# Current Ventures 
+<br>
 
-
-
-# Future Ventures 
--->
-
-
-
+<div id="container">
+  <table class="table">
+    <tr>
+      <td>
+        <center>
+        <figure>
+          <img src="images/lizette.jpg#thumbnail" alt="Cartoon" caption="caption" />
+        </figure>
+          <p>Lizette Carpenter</p>
+          <ul class="icons">
+            <li>
+              <a href="https://github.com/lcarpenter20">
+                <i class="fab fa-github" style="font-size:30px"></i>
+              </a> 
+            </li>
+            <li>
+              <a href="https://twitter.com/carpe_lizette">
+                <i class="fa fa-twitter" style="font-size:30px"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:lcarpenter@smith.edu?">
+                <i class="fa fa-at" style="font-size:30px"></i>
+              </a>
+            </li>
+          </ul>
+        </center>
+      </td>
+    </tr>
+  </table> 
+  <table class="table">
+    <tr>
+      <td>
+        <h1>Biography</h1>
+        <p>Lizette Carpenter is a Senior at Smith College double-majoring in Computer Science and Statistical &amp; Data Sciences. She is expected to graduate in May of 2020. Last summer she worked on a Python package that builds aligned hierarchies of music based data streams. She is eager to learn more, creating tech solutions for variety of industries. Contact <a href="mailto:lcarpenter@smith.edu?">Lizette </a> to ask her about her current project, finding ways to improve NFL team's performance or for other inquiries. 
+        </p>
+        <h2>Interests</h2>
+          <li>
+            Sports Analytics
+          </li>
+          <li>
+            Public Policy 
+          </li>
+          <li>
+            Trees
+          </li>
+      </td>
+    </tr>
+  </table>
 </div>
-</div>
 
+
+
+
+
+
+<style type="text/css">
+.icons li {
+  display: inline;
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  float: left;
+  
+} 
+#container {
+    margin: 0 auto;
+}
+img[src*="#thumbnail"] {
+   width:25%;
+   height:25%;
+   border: 1px solid #fe019a;
+   border-radius: 50%;
+}
+
+img[src~="bordered"] {
+   border: 4px solid black;
+}
+
+p{
+  text-align: relative;
+  font-family: Verdana;
+  font-size: 20px;
+}
+</style>
 </div>
 
 <script>
@@ -423,32 +413,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
